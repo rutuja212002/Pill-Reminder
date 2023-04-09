@@ -1,0 +1,103 @@
+body {
+	background-image: url('be.jpg');
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	color: #333;
+}
+
+.intro h1 {
+	font-size: 3em;
+	margin-top: 0;
+}
+
+.tips h2 {
+	font-size: 2em;
+}
+
+.tips li {
+	margin-bottom: 10px;
+}
+.alert {
+  display: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  max-width: 400px;
+  text-align: center;
+}
+
+.alert h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.alert p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn.done {
+  background-color: #008CBA;
+}
+
+.btn.remind {
+  background-color: #f44336;
+}
+
+.btn:hover {
+  background-color: #555;
+}
